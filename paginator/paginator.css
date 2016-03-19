@@ -2,12 +2,15 @@
 {
     list-style : none;
     text-align : center;
-    padding: 0;
+    padding    : 0;
+    font-size  : 0;
 }
+
 .paginator li
 {
     display : inline-block;
 }
+
 .paginator a
 {
     display         : block;
@@ -16,16 +19,20 @@
     border-right    : none;
     text-decoration : none;
     color           : #ff5722;
+    font-size       : 14px;
 }
+
 .paginator li:last-child a
 {
     border-right  : solid 1px #ccc;
     border-radius : 0 5px 5px 0;
 }
+
 .paginator li:first-child a
 {
     border-radius : 5px 0 0 5px;
 }
+
 .paginator a.active
 {
     background-color : #ff5722;
@@ -33,10 +40,12 @@
     cursor           : default;
     border-color     : #ff5722;
 }
+
 .paginator a:hover
 {
     background-color : #efefef;
 }
+
 .paginator a.active:hover
 {
     background-color : #ff5722;
